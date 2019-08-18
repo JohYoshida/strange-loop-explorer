@@ -1,0 +1,42 @@
+.Cell {
+  align-self: center;
+  height: 2px;
+  width: 2px;
+  padding: 5px;
+  font-size: 8px;
+}
+
+.ground {
+  background-color: #b2a429;
+}
+
+.figure {
+  background-color: #008394;
+}
+
+.Board {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  flex-direction: column;
+}
+.Board .row {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.App .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.App label {
+  margin-right: 3px;
+}
+
+/*# sourceMappingURL=main.css.map */
